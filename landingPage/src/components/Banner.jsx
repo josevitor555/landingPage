@@ -22,7 +22,7 @@ const Banner = () => {
 
         <div className="buttons__headline">
             <button type="button" className="buttons__get"> <a target="_blank" href="https://pay.kiwify.com.br/mT9GzZk"> Get Full Access for $50 </a> </button>
-            <button type="button" className="buttons__insta"> Instagram </button>
+            <button type="button" className="buttons__discord"> Discord Community </button>
         </div>
       </div>
 
@@ -46,4 +46,4 @@ const Banner = () => {
   )
 }
 
-export default Banner
+export default Banner;

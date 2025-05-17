@@ -137,7 +137,7 @@
   cursor: pointer;
 }
 
-.banner .headline .buttons__insta {
+.banner .headline .buttons__discord {
   background: transparent;
   border: 2px solid #eac7a5;
   color: #eac7a5;
@@ -157,7 +157,7 @@
 
 .banner .image__placeholder {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   background: #eac7a5;
   padding: 0px 250px;
   overflow: hidden;
@@ -170,20 +170,20 @@
   gap: 10px;
 }
 
-.banner .image__placeholder .images_column .col_1 img {
-  margin: 8px 0px;
-  border-radius: 12px;
+.banner .image__placeholder .images_column .col_1,
+.banner .image__placeholder .images_column .col_2 {
+  height: auto;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
 }
 
+.banner .image__placeholder .images_column .col_1 img,
 .banner .image__placeholder .images_column .col_2 img {
   margin: 8px 0px;
   border-radius: 12px;
-}
-
-.col_1, .col_2 {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  display: block;
 }
 
 .scroll-up {

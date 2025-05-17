@@ -9,7 +9,7 @@ const Header = () => {
       {/* First col - logo */}
       <div className="logo">
         <FontAwesomeIcon icon={faPen} className='pen mr-4 text-black'/>
-        <span className='text__logo'> Miranda, Your AI Assistant </span>
+        <span className='text__logo'>  Build Your AI Assistant </span>
       </div>
 
       {/* Navigation links */}
@@ -22,8 +22,8 @@ const Header = () => {
             <li> <a href="#"> Suport </a> </li>
         </ul>
       </nav>
-      {/* Buttons */}
 
+      {/* Buttons */}
       <div className="buttons__header">
         <button type='button'> Get Started </button>
         <button type='button' className='no__background'> Login </button>
