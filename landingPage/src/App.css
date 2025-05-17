@@ -1,42 +1,210 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Roboto", sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+::-webkit-scrollbar {
+  width: 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Header styles */
+.header {
+  position: fixed;
+  width: 100%;
+  background: #252527;
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  z-index: 1000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  padding: 20px;
 }
 
-.card {
-  padding: 2em;
+.header .logo .pen {
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 50%;
 }
 
-.read-the-docs {
-  color: #888;
+.header .logo .text__logo {
+  font-size: 18px;
+  font-weight: 600;
+  color: #eac7a5;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.header nav ul li a {
+  position: relative;
+  font-size: 20px;
+  opacity: .8;
+    color: #eac7a5;
+  transition: .8s ease;
+}
+
+.header nav ul li a:hover {
+  opacity: 1;
+}
+
+.header nav ul li a::before {
+  content: "";
+  position: absolute;
+  bottom: 4;
+  width: 0;
+  height: 2px;
+  border-radius: 4px;
+  background: #a67c52;
+  transition: .3s ease;
+}
+
+.header nav ul li a:hover::before {
+  width: 100%;
+}
+
+.header .buttons__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .buttons__header button {
+  padding: 14px 20px;
+  background: #fbeee6;
+  color: #a67c52;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.header .buttons__header button.no__background {
+  background: transparent;
+  color: #eac7a5;
+  margin-left: 40px;
+}
+
+/* Banner Style */
+.banner {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.banner .headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3% 12%;
+}
+
+.banner .headline h1 {
+  font-size: 3rem;
+  color: #eac7a5;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.banner .headline p {
+  font-size: 24px;
+  margin: 24px 0px;
+  color: #eac7a5;
+  opacity: .8;
+}
+
+.banner .headline .buttons__get {
+  background: #eac7a5;
+  border-radius: 12px;
+  font-size: 18px;
+  padding: 12px 30px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.banner .headline .buttons__insta {
+  background: transparent;
+  border: 2px solid #eac7a5;
+  color: #eac7a5;
+  border-radius: 12px;
+  font-size: 18px;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
+.banner .headline .circle__headline {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #eac7a5;
+  margin: 40px 0px;
+}
+
+.banner .image__placeholder {
+  width: 100%;
+  height: 100vh;
+  background: #eac7a5;
+  padding: 0px 250px;
+  overflow: hidden;
+}
+
+.banner .image__placeholder .images_column {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.banner .image__placeholder .images_column .col_1 img {
+  margin: 8px 0px;
+  border-radius: 12px;
+}
+
+.banner .image__placeholder .images_column .col_2 img {
+  margin: 8px 0px;
+  border-radius: 12px;
+}
+
+.col_1, .col_2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-up {
+  animation: scrollUp 12s linear infinite;
+}
+
+.scroll-down {
+  animation: scrollDown 12s linear infinite;
+}
+
+@keyframes scrollUp {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+
+@keyframes scrollDown {
+  0% { transform: translateY(-50%); }
+  100% { transform: translateY(0); }
+}
+
+body {
+  height: 200vh;
+  background: #252527;
 }
