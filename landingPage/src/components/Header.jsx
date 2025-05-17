@@ -25,7 +25,7 @@ const Header = () => {
 
       {/* Buttons */}
       <div className="buttons__header">
-        <button type='button'> Get Started </button>
+        <button type='button'> Register Now </button>
         <button type='button' className='no__background'> Login </button>
       </div>
     </div>
