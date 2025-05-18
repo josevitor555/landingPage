@@ -17,6 +17,14 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   z-index: 1000;
+  transition: background .4s;
+}
+
+/* Header transparent */
+.header.header__transparent {
+  background: rgba( 255, 255, 255, 0 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
 }
 
 .header .logo {
@@ -47,14 +55,14 @@
 
 .header nav ul li {
   display: inline-block;
-  margin: 0 30px;
+  margin: 0 14px;
 }
 
 .header nav ul li a {
   position: relative;
   font-size: 20px;
   opacity: .8;
-    color: #eac7a5;
+  color: #eac7a5;
   transition: .8s ease;
 }
 
@@ -86,7 +94,7 @@
 .header .buttons__header button {
   padding: 14px 20px;
   background: #fbeee6;
-  color: #a67c52;
+  color: #252527;
   font-size: 18px;
   border-radius: 12px;
   cursor: pointer;
@@ -153,12 +161,25 @@
   border-radius: 50%;
   background: #eac7a5;
   margin: 40px 0px;
+  animation: breathe 2.5s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .banner .image__placeholder {
   height: 100vh;
   background: #252527;
-  /* padding: 0px 250px; */
+  padding: 0px 60px;
   overflow: hidden;
 }
 
@@ -201,6 +222,79 @@
 @keyframes scrollDown {
   0% { transform: translateY(-50%); }
   100% { transform: translateY(0); }
+}
+
+/* Media Queries - Mobile Version */
+@media (max-width: 1080px) {
+  
+  /* For Header */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header .logo .text__logo {
+    display: none;
+  }
+
+  .header nav {
+    display: none;
+  }
+
+  .header .buttons__header button {
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  /* For Banner */
+  .banner {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .banner .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .banner .headline h1 {
+    font-size: 2rem;
+    color: #eac7a5;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .banner .headline p {
+    font-size: 20px;
+    margin: 24px 0px;
+    color: #eac7a5;
+    opacity: .8;
+  }
+
+  .banner .headline .buttons__headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+
+  .banner .headline .buttons__headline button {
+    margin: 10px 0px;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  /* Images with display none */
+  .banner .image__placeholder {
+    display: none;
+  }
+
 }
 
 body {

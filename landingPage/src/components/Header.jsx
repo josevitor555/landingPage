@@ -1,8 +1,26 @@
 // Import font awesom
 import { faPen } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { useEffect } from 'react';
 
 const Header = () => {
+
+  // Hook for background transparent
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector(".header");
+      if (window.scrollY > 30) {
+        header.classList.add("header__transparent");
+      } else {
+        header.classList.remove("header__transparent");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className="header">
       
@@ -16,10 +34,11 @@ const Header = () => {
       <nav>
         <ul>
             <li> <a href="#"> Home </a> </li>
-            <li> <a href="#"> Features </a> </li>
-            <li> <a href="#"> Pricing </a> </li>
-            <li> <a href="#"> Insights </a> </li>
+            <li> <a href="#"> About </a> </li>
+            <li> <a href="#"> Gemini Models </a> </li>
+            <li> <a href="#"> FAQ </a> </li>
             <li> <a href="#"> Suport </a> </li>
+            <li> <a href="#"> Pricing </a> </li>
         </ul>
       </nav>
 
