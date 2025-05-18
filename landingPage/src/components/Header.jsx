@@ -1,6 +1,6 @@
 // Import font awesom
-import { faPen } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPen,  faBars } from '@fortawesome/free-solid-svg-icons';
 import { useEffect } from 'react';
 
 const Header = () => {
@@ -45,7 +45,9 @@ const Header = () => {
       {/* Buttons */}
       <div className="buttons__header">
         <button type='button'> Register Now </button>
-        <button type='button' className='no__background'> Login </button>
+        <button type='button' className='with__background'>
+          <FontAwesomeIcon icon={faBars}/>
+        </button>
       </div>
     </div>
   )
