@@ -35,7 +35,7 @@ const Header = () => {
         <ul>
             <li> <a href="#"> Home </a> </li>
             <li> <a href="#"> About </a> </li>
-            <li> <a href="#"> Gemini Models </a> </li>
+            <li> <a href="#"> Modal Gemini </a> </li>
             <li> <a href="#"> FAQ </a> </li>
             <li> <a href="#"> Suport </a> </li>
             <li> <a href="#"> Pricing </a> </li>

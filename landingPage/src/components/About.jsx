@@ -11,7 +11,7 @@ const About = () => {
         {/* About this project */}
         <div className="feature-text__about">
             <div className="context__box">
-                <h1> What Is This Platform? </h1>
+                <h1> What Is This Miranda? </h1>
                 <h2> A Smarter Way to Create, Code, and Communicate. </h2>
                 <p> This is an AI-powered platform built on advanced language and multimodal models — think Gemini-style intelligence — designed to help you generate text, images, audio, and even code. It's fast, intuitive, and available directly in your browser. Whether you need answers, automation, or inspiration, it's here to elevate your workflow. </p>
             </div>
