@@ -26,7 +26,7 @@ const Modals = () => {
                 </div>
             </div>
 
-            <p> Transform your ideas into code and bring your imagination to life. With the advanced power of Gemini models, your creativity becomes the engine that builds the future—one line of code at a time. </p>
+            <p> Transform your ideas into code and bring your imagination to life. With the advanced power of Miranda, your creativity becomes the engine that builds the future—one line of code at a time. </p>
 
             <div className="hashtags">
                 <span> #Programming </span>
@@ -43,7 +43,7 @@ const Modals = () => {
                 Generate Content
             </div>
             
-            <p> Give structure to your thoughts and let your words flow with precision. With Gemini models, you can generate articles, scripts, lists, summaries, and more—turning raw ideas into clear, compelling content in seconds. </p>
+            <p> Give structure to your thoughts and let your words flow with precision. With Miranda, you can generate articles, scripts, lists, summaries, and more—turning raw ideas into clear, compelling content in seconds. </p>
 
             <div className="hashtags">
                 <span> #ContentCreation </span>
@@ -60,7 +60,7 @@ const Modals = () => {
                 Organize your data. Export your results.
             </div>
 
-            <p> With Gemini models, generate structured tables with ease and export them in Excel format—perfect for reports, planning, inventory, or anything else that needs order and clarity </p>
+            <p> With Miranda, generate structured tables with ease and export them in Excel format—perfect for reports, planning, inventory, or anything else that needs order and clarity </p>
 
             <div className="hashtags">
                 <span> #DataOrganization </span>

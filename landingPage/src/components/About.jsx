@@ -1,11 +1,12 @@
-import image_about from "../images/about_images.jpg";
+// import image_about from "../images/about_images.jpg";
+import image_1 from "../images/image_1.png";
 
 const About = () => {
   return (
     <div className="about">
         {/* Image placeholder */}
         <div className="feature-image__about">
-            <img src={image_about} alt="Image about project" />
+            <img src={image_1} alt="Image about project" />
         </div>
 
         {/* About this project */}

@@ -1,4 +1,25 @@
-222831
-393E46
-948979
-DFD0B8
+Application pallet colors:
+
+#252527 (dark gray, main background)
+#2b2b2e (dark gray, gradient, cards)
+#28282b (dark gray, gradient)
+#38383b (medium gray, hover)
+#eac7a5 (light beige, highlight, texts, gradients)
+#e7cdb2 (light beige, gradients)
+#ddc4ad (beige, titles)
+#ebbf93 (yellow/beige, texts)
+#fbeee6 (very light beige, buttons)
+#a67c52 (light brown, underline in links)
+#fafafa (white, details)
+
+#252527
+#2b2b2e
+#28282b
+#38383b
+#eac7a5
+#e7cdb2
+#ddc4ad
+#ebbf93
+#fbeee6
+#a67c52
+#fafafa
