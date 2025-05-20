@@ -636,6 +636,7 @@
   .about .feature-image__about {
     width: 100%;
     height: auto;
+    padding: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -670,9 +671,10 @@
   }
 
   .about .feature-image__about img {
-    width: 100%;
-    max-width: 440px;
+    width: 380px;
+
     height: auto;
+    border-radius: 50%;
   }
 
   .about .feature-text__about {
@@ -681,7 +683,7 @@
 
   /* Modals section */
   .modals-section h1 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     /* line-height: 1; */
     color: #e7cdb2;
     margin: 50px 0px;
@@ -691,9 +693,10 @@
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px 40px;
+    /* padding: 20px 40px; */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
   }
 
   /* Features section */
@@ -707,6 +710,21 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+
+  .features-section::after {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    opacity: .4;
+    transform: translate(-60%, -50%);
+    background: linear-gradient(135deg, #e7cdb2 60%, #eac7a5 100%);
+    filter: blur(60px);
+    animation: circleAnimate 2.5s ease-in-out infinite;
   }
 
   .features-section .features-section__text {
