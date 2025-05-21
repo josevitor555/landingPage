@@ -10,9 +10,9 @@ const Header = () => {
     const handleScroll = () => {
       const header = document.querySelector(".header");
       if (window.scrollY > 30) {
-        header.classList.add("header__transparent");
+        header.classList.add("change__background");
       } else {
-        header.classList.remove("header__transparent");
+        header.classList.remove("change__background");
       }
     };
 

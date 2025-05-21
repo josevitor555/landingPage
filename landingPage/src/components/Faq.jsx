@@ -87,12 +87,12 @@ const Faq = () => {
           ))}
         </div>
 
-        {/* <div className="mt-10 text-center p-4 bg-[#38383b] rounded-lg">
-          <p className="text-gray-200 text-2xl"> Still have questions? </p>
-          <button className="mt-2 px-6 py-2 bg-[#ebbf93] text-black font-medium rounded-lg cursor-pointer hover:bg-[#d6a86f] transition duration-300">
+        <div className="mt-10 text-center p-4 bg-[#38383b] rounded-lg">
+          <p className="text-gray-200 some_text"> Still have questions? </p>
+          <button className="mt-2 px-8 py-4 bg-[#ebbf93] text-black font-medium rounded-lg cursor-pointer hover:bg-[#d6a86f] transition duration-300">
             Send Message
           </button>
-        </div> */}
+        </div>
       </div>
     </div>
   )
