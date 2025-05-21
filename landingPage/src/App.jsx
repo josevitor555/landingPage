@@ -6,9 +6,10 @@ import Header from './components/Header';
 import Banner from './components/Banner';
 import About from './components/About';
 import Modals from './components/Modals';
-// import Faq from './components/Faq';
 import Features from './components/Features';
 import Usertestimonial from './components/Usertestimonial';
+import Faq from './components/Faq';
+import Princing from './components/Princing';
 
 const App = () => {
 
@@ -18,9 +19,10 @@ const App = () => {
       <Banner />
       <About />
       <Modals />
-      {/* <Faq /> */}
       <Features />
       <Usertestimonial />
+      <Faq />
+      <Princing />
     </div>
   )
 }
