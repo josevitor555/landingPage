@@ -3,14 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTerminal } from '@fortawesome/free-solid-svg-icons';
 import {  faDiscord } from "@fortawesome/free-brands-svg-icons";
 
-const Features = ()  =>{
+const Features = () => {
   return (
     <div className="features-section">
 
       <div className="features-section__text">
         <h4> Features </h4>
         <h1> Unlock the Power of Miranda Coding </h1>
-        <p> Experience the ultimate coding assistant designed for efficiency and creativity. <br /> With our comprehensive tools, you can streamline your development process and enhance your coding skills. </p>
+        <p> Experience the ultimate coding assistant designed for efficiency and creativity. </p>
       </div>
 
       <div className="features-section__card">

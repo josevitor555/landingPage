@@ -9,7 +9,7 @@ import Modals from './components/Modals';
 import Features from './components/Features';
 import Usertestimonial from './components/Usertestimonial';
 import Faq from './components/Faq';
-import Princing from './components/Princing';
+import Pricing from './components/Pricing';
 
 const App = () => {
 
@@ -22,7 +22,7 @@ const App = () => {
       <Features />
       <Usertestimonial />
       <Faq />
-      <Princing />
+      <Pricing />
     </div>
   )
 }
