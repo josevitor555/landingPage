@@ -10,6 +10,7 @@ import Features from './components/Features';
 import Usertestimonial from './components/Usertestimonial';
 import Faq from './components/Faq';
 import Pricing from './components/Pricing';
+import FooterComponent from './components/Footer';
 
 const App = () => {
 
@@ -23,8 +24,9 @@ const App = () => {
       <Usertestimonial />
       <Faq />
       <Pricing />
+      <FooterComponent />
     </div>
-  )
+  );
 }
 
 export default App;

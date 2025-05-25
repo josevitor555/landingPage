@@ -57,14 +57,14 @@ const Modals = () => {
             <img src="https://fakeimg.pl/600x400" alt="Image" />
 
             <div className='box-title'>
-                Organize your data. Export your results.
+                Create a Codebook.
             </div>
 
-            <p> With Miranda, generate structured tables with ease and export them in Excel format—perfect for reports, planning, inventory, or anything else that needs order and clarity </p>
+            <p> With Miranda, you can create a Colab-like code notebook, which we call a CodeBook, for more organization in your workflow. </p>
 
             <div className="hashtags">
-                <span> #DataOrganization </span>
-                <span> #ExcelExport </span>
+                <span> #CodeBook </span>
+                <span> #Organization </span>
                 <span> #MirandaAI </span>
             </div>
         </div>

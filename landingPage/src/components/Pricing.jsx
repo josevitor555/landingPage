@@ -6,8 +6,7 @@ const Pricing = () => {
       <div className="pricing-section__text">
         <h1> Choice your Pricing Plan </h1>
         <p>
-          We offer flexible pricing plans to suit your needs. Whether you're an individual, a small team, or a large organization, we have a plan that fits your requirements. <br />
-          Choose the plan that works best for you and start enjoying the benefits of our service today!
+          We offer flexible pricing plans to suit your needs. Whether you're an individual, a small team, or a large organization, we have a plan that fits your requirements.
         </p>
 
         <div className="pricing-section__container">
@@ -16,7 +15,7 @@ const Pricing = () => {
               <div>
                 <h2 className='flex text-start'> Features Includes </h2>
               </div>
-              <div>
+              <div className='free-plan'>
                 <h2> Free Plan </h2>
                 <p> $0 / month with Include Gemini </p>
               </div>
@@ -119,9 +118,9 @@ const Pricing = () => {
               <div>
                 <h2 className='flex text-start'> Features Includes </h2>
               </div>
-              <div>
+              <div className='pro-plan'>
                 <h2> Pro Plan </h2>
-                <p> $50 / month with Gemini, GPT, Grok and Claude </p>
+                <p> $50 / month with Gemini, GPT, Grok, Claude and Gemma </p>
               </div>
             </div>
             <ul>
@@ -199,7 +198,7 @@ const Pricing = () => {
                   {/* <svg className="w-6 h-6 me-2 text-[#FFF2D7] shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                   </svg> */}
-                  Full customization of prompts and workflows
+                  Full customization Prompts
                 </div>
               </li>
               <li>
@@ -210,7 +209,7 @@ const Pricing = () => {
                   {/* <svg className="w-6 h-6 me-2 text-[#FFF2D7] shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                   </svg> */}
-                  Multi-model switching between Gemini, GPT, Grok and Claude
+                  Include Gemini, GPT, Grok and Claude
                 </div>
               </li>
             </ul>
