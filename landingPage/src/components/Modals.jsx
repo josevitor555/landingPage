@@ -11,7 +11,7 @@ const Modals = () => {
 
         {/* Generate Code */}
         <div className="modal-box">
-            <img src="https://fakeimg.pl/600x400" alt="Image" />
+            <img src="https://placehold.co/600x400" alt="Image" />
 
             <div className='box-title'>
                 Generate Code
@@ -37,7 +37,7 @@ const Modals = () => {
 
         {/* Generate text */}
         <div className="modal-box">
-            <img src="https://fakeimg.pl/600x400" alt="Image" />
+            <img src="https://placehold.co/600x400" alt="Image" />
 
             <div className='box-title'>
                 Generate Content
@@ -54,7 +54,7 @@ const Modals = () => {
 
         {/* Generate tables */}
         <div className="modal-box">
-            <img src="https://fakeimg.pl/600x400" alt="Image" />
+            <img src="https://placehold.co/600x400" alt="Image" />
 
             <div className='box-title'>
                 Create a Codebook.
@@ -73,4 +73,4 @@ const Modals = () => {
   )
 }
 
-export default Modals
+export default Modals;

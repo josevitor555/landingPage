@@ -16,7 +16,7 @@ const Usertestimonial = () => {
             </svg>
 
             <blockquote>
-                <p className="testimonial-user text-2xl italic font-medium text-gray-900 dark:text-white"> "I never imagined I would witness such technological sophistication applied with such sensitivity to human needs. The precision, fluidity and predictive capacity of the Gemini models not only exceeded my expectations — they redefined my very conception of innovation. It is, without a shadow of a doubt, a tool that is up to the task of these new times. To those who value excellence, I give my most enthusiastic endorsement." </p>
+                <p className="testimonial-user text-2xl italic font-medium text-gray-900 dark:text-white"> "I never imagined I would witness such technological sophistication applied with such sensitivity to human needs. The precision, fluidity and predictive capacity of the Gemini, OpenAI and Anthropic models not only exceeded my expectations — they redefined my very conception of innovation. It is, without a shadow of a doubt, a tool that is up to the task of these new times. To those who value excellence, I give my most enthusiastic endorsement." </p>
             </blockquote>
 
             <figcaption className="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">

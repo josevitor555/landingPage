@@ -499,8 +499,14 @@
   color: #eac7a5;
 }
 
+.features-section .features-section__card .feature__card .hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .features-section .features-section__card .feature__card .hashtags span {
-  margin: 0px 4px;
+  margin: 0;
   padding: 4px 8px;
   cursor: pointer;
   background: #e7cdb2;
