@@ -89,7 +89,7 @@ const Faq = () => {
 
         <div className="mt-10 text-center p-4 bg-[#38383b] rounded-lg">
           <p className="text-gray-200 some_text"> Still have questions? </p>
-          <button className="mt-2 px-8 py-4 bg-[#fffffe] text-black font-medium rounded-lg cursor-pointer hover:bg-[#d6a86f] transition duration-300">
+          <button className="mt-2 px-8 py-4 bg-[#fffffe] text-black font-medium rounded-lg cursor-pointer hover:bg-[#fffffe] transition duration-300">
             Send Message
           </button>
         </div>
