@@ -42,7 +42,7 @@
 .header .logo .text__logo {
   font-size: 18px;
   font-weight: 600;
-  color: #eac7a5;
+  color: #fffffe;
 }
 
 .header nav {
@@ -60,7 +60,7 @@
   position: relative;
   font-size: 20px;
   opacity: .8;
-  color: #eac7a5;
+  color: #fffffe;
   transition: .8s ease;
 }
 
@@ -75,7 +75,7 @@
   width: 0;
   height: 2px;
   border-radius: 4px;
-  background: #a67c52;
+  background: #fffffe;
   transition: .3s ease;
 }
 
@@ -92,7 +92,7 @@
 .header .buttons__header button {
   padding: 14px 20px;
   background: #38383b;
-  color: #eac7a5;
+  color: #fffffe;
   font-size: 18px;
   border-radius: 12px;
   cursor: pointer;
@@ -106,7 +106,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #eac7a5;
+  color: #fffffe;
   margin-left: 30px;
 }
 
@@ -128,7 +128,7 @@
 
 .banner .headline h1 {
   font-size: 3rem;
-  color: #eac7a5;
+  color: #fffffe;
   font-weight: 600;
   line-height: 1;
 }
@@ -136,12 +136,13 @@
 .banner .headline p {
   font-size: 24px;
   margin: 24px 0px;
-  color: #eac7a5;
+  color: #fffffe;
   opacity: .8;
 }
 
 .banner .headline .buttons__get {
-  background: #eac7a5;
+  background: #fffffe;
+  color: #252527;
   border-radius: 12px;
   font-size: 18px;
   padding: 12px 30px;
@@ -151,8 +152,8 @@
 
 .banner .headline .buttons__Flexibility {
   background: transparent;
-  border: 2px solid #eac7a5;
-  color: #eac7a5;
+  border: 2px solid #fffffe;
+  color: #fffffe;
   border-radius: 12px;
   font-size: 18px;
   padding: 12px 30px;
@@ -163,7 +164,7 @@
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  background: #eac7a5;
+  background: #fffffe;
   margin: 40px 0px;
   animation: breathe 2.5s ease-in-out infinite;
 }
@@ -308,21 +309,21 @@
 
 .about .feature-text__about .context__box h1 {
   font-size: 26px;
-  color: #ddc4ad;
+  color: #fffffe;
   margin: 8px 0px;
 }
 
 .about .feature-text__about .context__box h2 {
   font-size: 18px;
   font-weight: 400;
-  color: #ddc4ad;
+  color: #fffffe;
   opacity: .8;
 }
 
 .about .feature-text__about .context__box p {
   font-size: 18px;
   margin: 8px 0px;
-  color: #ebbf93;
+  color: #fffffe;
 }
 
 /* Third section: Modals section */
@@ -341,7 +342,7 @@
 .modals-section h1 {
   font-size: 1.6rem;
   /* line-height: 1; */
-  color: #e7cdb2;
+  color: #fffffe;
   margin: 50px 0px;
 }
 
@@ -389,14 +390,14 @@
   text-transform: uppercase;
   font-weight: 600;
   margin: 24px 0px;
-  color: #ddc4ad;
+  color: #fffffe;
   line-height: 1.2;
   display: flex;
 }
 
 .modals-section .modals-section__box .modal-box p {
   font-size: 18px;
-  color: #eac7a5;
+  color: #fffffe;
 }
 
 .modals-section .modals-section__box .modal-box .hashtags {
@@ -408,7 +409,7 @@
   margin: 0px 4px;
   padding: 4px 8px;
   cursor: pointer;
-  background: #e7cdb2;
+  background: #fffffe;
   color: #2b2b2e;
   border-radius: 25px;
 }
@@ -447,18 +448,18 @@
 .features-section .features-section__text h4 {
   font-size: 18px;
   font-weight: 600;
-  color: #ebbf93;
+  color: #fffffe;
 }
 
 .features-section .features-section__text h1 {
   font-size: 2.4rem;
-  color: #e7cdb2;
+  color: #fffffe;
   margin: 8px 0px;
 }
 
 .features-section .features-section__text p {
   font-size: 20px;
-  color: #ebbf93;
+  color: #fffffe;
 }
 
 .features-section .features-section__card {
@@ -494,7 +495,7 @@
   text-transform: uppercase;
   font-weight: 600;
   margin: 24px 0px;
-  color: #ddc4ad;
+  color: #fffffe;
   line-height: 1.2;
   display: flex;
 }
@@ -502,7 +503,7 @@
 .features-section .features-section__card .feature__card p {
   font-size: 18px;
   margin-bottom: 16px;
-  color: #eac7a5;
+  color: #fffffe;
 }
 
 .features-section .features-section__card .feature__card .hashtags {
@@ -515,7 +516,7 @@
   margin: 0;
   padding: 4px 8px;
   cursor: pointer;
-  background: #e7cdb2;
+  background: #fffffe;
   color: #2b2b2e;
   border-radius: 25px;
 }
@@ -542,7 +543,7 @@
 
 .users-testimonial__section .users-testimonial__title h1 {
   font-size: 28px;
-  color: #eac7a5;
+  color: #fffffe;
 }
 
 .users-testimonial__section .users-testimonial__container {
@@ -568,12 +569,12 @@
 
 .faq-section .faq-section__title h1 {
   font-size: 32px;
-  color: #e7cdb2;
+  color: #fffffe;
 }
 
 .faq-section .faq-section__title h2 {
   font-size: 20px;
-  color: #ebbf93;
+  color: #fffffe;
   opacity: .8;
 }
 
@@ -630,12 +631,12 @@
 .pricing-section .pricing-section__text h1 {
   font-size: 28px;
   margin: 10px 0px;
-  color: #e7cdb2;
+  color: #fffffe;
 }
 
 .pricing-section .pricing-section__text p {
   font-size: 18px;
-  color: #ebbf93;
+  color: #fffffe;
   opacity: .8;
 }
 
@@ -663,7 +664,7 @@
 
 .pricing-section .pricing-section__container .pricing__box h2 {
   font-size: 24px;
-  color: #e7cdb2;
+  color: #fffffe;
   margin: 10px 0px;
 }
 
@@ -678,19 +679,19 @@
 
 .pricing-section .pricing-section__container .pricing__box .pricing__box-title * h2 {
   font-size: 24px;
-  color: #e7cdb2;
+  color: #fffffe;
   margin: 10px 0px;
 }
 
 .pricing-section .pricing-section__container .pricing__box .pricing__box-title p {
   font-size: 18px;
-  color: #ebbf93;
+  color: #fffffe;
   opacity: .8;
 }
 
 .pricing-section .pricing-section__container .pricing__box .pricing__box-title .free-plan, .pro-plan {
   background: #38383b;
-  color: #eac7a5;
+  color: #fffffe;
   padding: 8px 8px;
   border-radius: 8px;
 }
@@ -706,7 +707,7 @@
   background: #38383b;
   border-radius: 8px;
   font-size: 18px;
-  color: #eac7a5;
+  color: #fffffe;
   margin: 20px 0px;
   display: flex;
   align-items: center;
@@ -724,7 +725,7 @@
 
 .pricing-section .pricing-section__container .pricing__box .pricing__box-button {
   width: 100%;
-  background: #eac7a5;
+  background: #fffffe;
   border-radius: 25px;
   font-size: 18px;
   padding: 12px 30px;
@@ -756,7 +757,7 @@
 .footer-section .footer__row1 .logo span {
   font-size: 24px;
   font-weight: 600;
-  color: #eac7a5;
+  color: #fffffe;
 }
 
 .footer-section .footer__row1 .footer__nav {
@@ -780,7 +781,7 @@
   position: relative;
   font-size: 18px;
   opacity: .8;
-  color: #eac7a5;
+  color: #fffffe;
   transition: .8s ease;
 }
 
@@ -813,7 +814,7 @@
   justify-content: center;
   background: #2b2b2e;
   border-radius: 50%;
-  color: #eac7a5;
+  color: #fffffe;
 }
 
 .footer-section .footer__row2 {
@@ -827,13 +828,13 @@
 
 .footer-section .footer__row2 .footer__copyright {
   font-size: 16px;
-  color: #eac7a5;
+  color: #fffffe;
   opacity: .8;
 }
 
 .footer-section .footer__row2 .footer__terms {
   font-size: 16px;
-  color: #eac7a5;
+  color: #fffffe;
   opacity: .8;
   margin-left: 12px;
 }

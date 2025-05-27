@@ -66,7 +66,7 @@ const Faq = () => {
                 className="flex justify-between items-center w-full p-5 text-left focus:outline-none cursor-pointer"
                 onClick={() => toggleFAQ(index)}
               >
-                <span className="font-medium text-[#ebbf93]"> {faq.question} </span>
+                <span className="font-medium text-[#fffffe]"> {faq.question} </span>
                 <span className="text-[#e7cdb2] ml-4">
                   {openIndex === index ? (
                     <ChevronUp size={20} />
@@ -81,7 +81,7 @@ const Faq = () => {
                   openIndex === index ? 'max-h-64 p-5 pt-0' : 'max-h-0'
                 }`}
               >
-                <p className="text-[#e7cdb2]"> {faq.answer} </p>
+                <p className="text-[#fffffe]"> {faq.answer} </p>
               </div>
             </div>
           ))}
@@ -89,7 +89,7 @@ const Faq = () => {
 
         <div className="mt-10 text-center p-4 bg-[#38383b] rounded-lg">
           <p className="text-gray-200 some_text"> Still have questions? </p>
-          <button className="mt-2 px-8 py-4 bg-[#ebbf93] text-black font-medium rounded-lg cursor-pointer hover:bg-[#d6a86f] transition duration-300">
+          <button className="mt-2 px-8 py-4 bg-[#fffffe] text-black font-medium rounded-lg cursor-pointer hover:bg-[#d6a86f] transition duration-300">
             Send Message
           </button>
         </div>
