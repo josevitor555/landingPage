@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTerminal } from '@fortawesome/free-solid-svg-icons';
 import {  faDiscord } from "@fortawesome/free-brands-svg-icons";
 
+import doc from "../images/documentation.png";
+import source_code from "../images/source_code.png";
+import discord_group from "../images/discord_group.png";
+
 const Features = () => {
   return (
     <div className="features-section">
@@ -16,7 +20,7 @@ const Features = () => {
       <div className="features-section__card">
 
         <div className="feature__card">
-            <img src="https://placehold.co/600x400" alt="Image" />
+            <img src={source_code} alt="Image" />
 
             <div className='feature__card-title'>
                 Complete Source Code
@@ -33,7 +37,7 @@ const Features = () => {
         </div>
         
         <div className="feature__card second_child">
-            <img src="https://placehold.co/600x400" alt="Image" />
+            <img src={doc} alt="Image" />
 
             <div className='feature__card-title'>
                 Professional Documentation
@@ -49,7 +53,7 @@ const Features = () => {
         </div>
         
         <div className="feature__card">
-            <img src="https://placehold.co/600x400" alt="Image" />
+            <img src={discord_group} alt="Image" />
 
             <div className='feature__card-title'>
                 Access to the VIP Discord Group
@@ -66,30 +70,31 @@ const Features = () => {
         </div>
 
         <div className="feature__card">
-            <img src="https://placehold.co/600x400" alt="Image" />
+            <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80d741ca-acf2-4619-961f-60b2f788d592_600x338.gif" alt="Image" />
 
             <div className='feature__card-title'>
                 Team Gemini
             </div>
             
-            <p> Get the best AI models trained by Google! From Gemini Flash to Gemini Pro! </p>
+            <p> Unlock the power of Google’s cutting-edge AI! From Gemini Flash for lightning-fast responses to Gemini Pro for deep, thoughtful insights, experience models crafted by one of the world’s top tech pioneers. Whether you need creative writing, code assistance, or advanced data analysis — Gemini delivers precision and innovation at your fingertips. </p>
 
             <div className="hashtags">
                 <span> #GeminiFlash1.5 </span>
                 <span> #GeminiPro1.5 </span>
                 <span> #GeminiPro2.5 </span>
                 <span> #GeminiFlash2.5 </span>
+                <span> #Google </span>
             </div>
         </div>
 
         <div className="feature__card">
-            <img src="https://placehold.co/600x400" alt="Image" />
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e50214173218977.648c4882a75d6.gif" alt="Image" />
 
             <div className='feature__card-title'>
                 Team OpenAI
             </div>
             
-            <p> Get the best AI models trained by OpenAI! From the earliest versions of ChatGPT to the current ones! </p>
+            <p> Step into the future with the iconic creators of ChatGPT! From the humble beginnings of GPT-1 to today’s mind-blowing GPT-4, OpenAI has consistently pushed the boundaries of artificial intelligence. </p>
 
             <div className="hashtags">
                 <span> #GPT4.1 </span>
@@ -97,17 +102,18 @@ const Features = () => {
                 <span> #GPT4.1Nano </span>
                 <span> #GPTo3 </span>
                 <span> #GPT3.5Turbo </span>
+                <span> #OpenAI </span>
             </div>
         </div>
 
         <div className="feature__card">
-            <img src="https://placehold.co/600x400" alt="Image" />
+            <img src="https://analyticsindiamag.com/wp-content/uploads/2024/03/What-Makes-Anthropics-Claude-3-Special-1-1.gif" alt="Image" />
 
             <div className='feature__card-title'>
                 Team Claude
             </div>
             
-            <p> Get the best code generation models trained by Claude Antropic! OpenAI competitor. </p>
+            <p> Power up with Claude, the innovative AI crafted by Anthropic — a formidable competitor to OpenAI. Known for its thoughtful, safety-focused approach and advanced code generation capabilities, Claude is the go-to choice for developers, researchers, and anyone needing sharp, ethical, and reliable AI output. </p>
 
             <div className="hashtags">
                 <span> #ClaudeOpus4 </span>
@@ -115,6 +121,7 @@ const Features = () => {
                 <span> #ClaudeSonnet4 </span>
                 <span> #ClaudeSonnet3.7 </span>
                 <span> #ClaudeHaiku3.5 </span>
+                <span> #Anthropic </span>
             </div>
         </div>
 

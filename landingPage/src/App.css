@@ -149,7 +149,7 @@
   cursor: pointer;
 }
 
-.banner .headline .buttons__discord {
+.banner .headline .buttons__Flexibility {
   background: transparent;
   border: 2px solid #eac7a5;
   color: #eac7a5;
@@ -481,6 +481,12 @@
   border-radius: 4px;
   text-align: left;
   z-index: 2;
+}
+
+.features-section .features-section__card .feature__card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
 }
 
 .features-section .features-section__card .feature__card .feature__card-title {

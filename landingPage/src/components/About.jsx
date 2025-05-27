@@ -1,6 +1,6 @@
 // import image_about from "../images/about_images.jpg";
 // import { useEffect, useState } from "react";
-import image_1 from "../images/thelogo5.png";
+import image_1 from "../images/Flexibility.png";
 
 const About = () => {
     // const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });

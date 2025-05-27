@@ -22,7 +22,7 @@ const Banner = () => {
 
         <div className="buttons__headline">
             <button type="button" className="buttons__get"> <a target="_blank" href="https://pay.kiwify.com.br/mT9GzZk"> Get Full Access for $50 </a> </button>
-            <button type="button" className="buttons__discord"> About MirandDrix </button>
+            <button type="button" className="buttons__Flexibility"> About Flexibility </button>
         </div>
       </div>
 

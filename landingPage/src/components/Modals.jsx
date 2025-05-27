@@ -1,6 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faJava, faJs, faHtml5, faCss3, faReact } from "@fortawesome/free-brands-svg-icons";
 
+import modal_1 from "../images/modal_1.png";
+import modal_2 from "../images/modal_2.png";
+import modal_3 from "../images/modal_3.png";
+
 const Modals = () => {
   return (
     <div className="modals-section">
@@ -11,7 +15,7 @@ const Modals = () => {
 
         {/* Generate Code */}
         <div className="modal-box">
-            <img src="https://placehold.co/600x400" alt="Image" />
+            <img src={modal_1} alt="Image" />
 
             <div className='box-title'>
                 Generate Code
@@ -37,7 +41,7 @@ const Modals = () => {
 
         {/* Generate text */}
         <div className="modal-box">
-            <img src="https://placehold.co/600x400" alt="Image" />
+            <img src={modal_2} alt="Image" />
 
             <div className='box-title'>
                 Generate Content
@@ -54,7 +58,7 @@ const Modals = () => {
 
         {/* Generate tables */}
         <div className="modal-box">
-            <img src="https://placehold.co/600x400" alt="Image" />
+            <img src={modal_3} alt="Image" />
 
             <div className='box-title'>
                 Create a Codebook.
